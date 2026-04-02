@@ -1,0 +1,4 @@
+// Строгое сравнение разных типов
+
+alert (undefined === null); // false
+alert (null === +"\n0\n"); // false
