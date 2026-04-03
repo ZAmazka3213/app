@@ -1,0 +1,11 @@
+<script>
+"use strict";
+
+let number = prompt('Под каким номером выступал гонщик Ferrari в 2015 году?', '');
+
+if (number == 1) {
+  alert( 'Да вы знаток!' );
+} else {
+  alert( 'А вот и неправильно!' ); // любое значение, кроме 1
+}
+</script>
