@@ -2,9 +2,7 @@
 "use strict";
 let greeting = "Добрый";
 
-if (greeting) {
-  greeting = greeting + "день!"
-}
+greeting &&= greeting + " день!";
 
 alert( greeting ) // "Добрый день!"
 
