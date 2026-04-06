@@ -1,0 +1,6 @@
+alert( !true ); // false
+alert( !0 ); // true
+
+// Использование двойного не !! 
+alert( !!"непустая строка" ); // true
+alert( !!null ); // false
