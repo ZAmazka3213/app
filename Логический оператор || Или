@@ -1,0 +1,9 @@
+<script>
+"use strict";
+
+let firstName = "";
+let lastName = "";
+let nickName = "Nikson";
+
+alert( firstName || lastName || nickName || "Аноним"); // Nikson
+</script>
