@@ -1,7 +1,7 @@
 let userAge = 18;
 
-userAge ??= alert("не сработает");
+userAge ??= alert("не будет работать");
 userAge ??= 21;
 userAge ??= null;
 
-alert(userAge) // по-прежнему 18
+alert(userAge) // 18
