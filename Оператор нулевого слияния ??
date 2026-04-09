@@ -2,7 +2,7 @@
 "use strict";
 let firstName = null;
 let lastName = null;
-let nickName = "Суперкодер";
+let nickName = "Замазка";
 
-alert(firstName ?? lastName ?? nickName ?? "Аноним"); // Суперкодер
+alert(firstName ?? lastName ?? nickName ?? "Аноним"); // Замазка
 </script>
